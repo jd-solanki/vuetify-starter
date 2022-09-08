@@ -1,0 +1,6 @@
+@use 'vuetify' with (
+  $color-pack: false,
+  $utilities: false,
+  $border-radius-root: 16px,
+  $body-font-family: "Inter",
+);

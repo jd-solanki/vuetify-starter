@@ -12,9 +12,7 @@ import { RouterLink, RouterView } from 'vue-router';
         <RouterLink to="/about">About</RouterLink>
       </nav>
 
-      <VBtn color="primary">Awesome</VBtn>
+      <RouterView></RouterView>
     </VMain>
   </VApp>
-
-  <RouterView />
 </template>

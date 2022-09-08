@@ -1,0 +1,6 @@
+@forward "vuetify/lib/styles/settings" with (
+  $color-pack: false !default,
+  $body-font-family: "Inter" !default,
+  $border-radius-root: 16px !default,
+);
+@forward "vuetify/dist/component-variables";

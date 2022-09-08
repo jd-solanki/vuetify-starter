@@ -3,6 +3,6 @@
 
 <template>
   <main>
-    <p>Aadmin</p>
+    <VBtn>Button</VBtn>
   </main>
 </template>

@@ -8,9 +8,8 @@ import vuetify from 'vite-plugin-vuetify'
 export default defineConfig({
   plugins: [
     vue(),
-    vuetify({
-      autoImport: true,
-    }),
+    vuetify({ styles: { configFile: 'src/styles/settings.scss' } }),
+    // vuetify({ styles: 'expose' }),
   ],
   resolve: {
     alias: {
